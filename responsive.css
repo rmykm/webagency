@@ -1,0 +1,98 @@
+
+/*Feuille de style CSS repsponsive*/
+
+/*-------------------*/
+/*---Bloc du header---*/
+/*-------------------*/
+
+@media screen and (max-width: 480px)
+{
+	body
+	{
+		width: 100%;
+	}
+/*En-tête*/
+	#header
+	{
+		width: 100vw;
+		height: 240px;
+		display: block;
+		flex-direction: column;
+	}
+
+	#logo
+	{
+		width: 100vw;
+		margin: 25px 50px 25px 80px;
+		
+
+	}
+
+	nav
+	{
+		width: auto;
+	}
+
+	nav li
+	{
+		display: block;
+		text-decoration: underline;
+		font-size: 14px;
+		border-left: 3px solid grey;
+		padding: 4px 30px;
+	}
+
+	nav ul
+	{
+		width: auto;
+		margin: 0px 0px 0px 25px;
+		padding: 0px;
+	}
+
+	#main-nav
+	{
+		float: none;
+	}
+/*Corps*/
+	.image-slider
+	{
+		background-image: none;
+		width: auto;
+		height: 300px;
+	}
+
+	.fleches
+	{
+		display: none;
+	}
+
+	#text-section
+	{
+		margin: 0px 0px 0px 0px;
+		width: auto;
+		height: 300px;
+	}
+
+	h1
+	{
+		margin: 0px 0px 0px 40px;
+		font-size: 25px;
+	}
+
+	.titre-sans-couleur 
+	{
+		color: grey;
+	}
+	.phrase1
+	{
+		margin: 5px 0px 17px 40px; 
+		color: grey;
+	}
+
+	#lien-info
+	{
+		margin-left: 40px;
+	}
+
+
+}

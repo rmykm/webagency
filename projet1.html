@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width"/>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" media="screen and (max-width: 480px)" href="responsive.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/223e642c1f.js" crossorigin="anonymous"></script>
 		<title>Web Agency</title>
 	</head>
 <body>
-
-<!--------->
-<!--Page1-->
-<!--------->
 
 <!--Bloc Header-->
 	<div id="header">
@@ -25,29 +24,35 @@
 		<nav id="main-nav"
 			<div id="menu">
 				<ul id="liste">
-					<li class="onglet1">Accueil</li>
-					<li class="onglet2">Services</li>
-					<li class="onglet3">Portfolio</li>
-					<li class="onglet4">Contact</li>
+					<span class="o1"><li class="onglet1">Accueil</li></span>
+					<span class="o2"><li class="onglet2">Services</li></span>
+					<span class="o3"><li class="onglet3">Portfolio</li></span>
+					<span class="o4"><li class="onglet4">Contact</li></span>
 				</ul>
 			</div>
 		</nav>
 	</div>
 
 <!--Slider-->
+
 	<section id="middle">
-		<div class="image-slider">
-			<img src="bg1.jpg" alt="Image 1 du slider"/>
-				<div id="text-section">
-					<h1 class="titre-couleur"><span class="titre-couleur">WEBAGENCY</span><span class="titre-sans-couleur"> : L'AGENCE DE TOUS VOS PROJETS !</span></h1>
-					<p class="phrase1"> Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
-					<a id="lien-info">Plus d'infos</a>
+		<div class="image-slider">	
+				<div class="fleches">
+					<div class="pave1"><i class="fas fa-angle-left"></i></div>
+					<div class="pave2"><i class="fas fa-angle-right"></i></div>
+				</div>
+			<div id="text-section">
+				<h1 class="titre-couleur"><span class="titre-couleur">WEBAGENCY</span><span class="titre-sans-couleur"> : L'AGENCE DE TOUS VOS PROJETS !</span></h1>
+				<p class="phrase1"> Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+				<a id="lien-info">Plus d'infos</a>
 				</div>
 		</div>
 	</section>
 
 <!--Pieds de page-->
+<!--
 	<footer>
 	</footer>
+-->
 </body>
 </html>
