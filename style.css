@@ -1,0 +1,183 @@
+
+/*Feuille de style CSS*/
+
+/*-------------------*/
+/*---Bloc du header---*/
+/*-------------------*/
+
+@font-face
+{
+	font-family:'Roboto-regular';
+	src: url('Roboto-regular.ttf') format('truetype');
+}
+@font-face
+{
+	font-family:'Roboto-black';
+	src: url('Roboto-black.ttf') format('truetype');
+}
+
+@font-face
+{
+	font-family:'Roboto-medium';
+	src: url('Roboto-medium.ttf') format('truetype');
+}
+
+#header
+{
+	display: inline-flex;
+	width: 100%;
+	height: 150px;
+}
+
+/*--------------------*/
+/*----Bloc du logo----*/
+/*--------------------*/
+
+#logo
+{
+	margin: auto;
+	justify-content: center;
+}
+
+/*------------------*/
+/*---Bloc du menu---*/
+/*------------------*/
+
+nav ul
+{
+	list-style-type:none;
+	margin: 70px 0px 50px 0px;
+	font-family: Roboto-regular;
+	font-size: 14px;
+	color: grey;	
+}
+
+nav li
+{
+	display: inline-block;
+}
+
+li
+{
+	margin-left: 30px;
+}
+
+#main-nav
+{
+	margin-left: 400px;
+	margin-right: 100px;
+}
+
+
+/*------------------*/
+/*--Bloc du slider--*/
+/*------------------*/
+
+#middle
+{
+	width: 100%;
+	height: 550px;
+}
+
+h1
+{
+	font-family: Roboto-black;
+	font-size: 30px;
+}
+
+.titre-couleur
+{
+	color: #489BFE;
+}
+
+.titre-sans-couleur
+{
+	color: #FFFFFF;
+}
+
+.phrase1
+{
+	font-family: Roboto-medium;
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: -15px;
+	margin-bottom: 30px;
+}
+
+#lien-info
+{
+	font-family: Roboto-regular;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding: 7px;
+	background-color: #489BFE;
+	border: 2px solid #489BFE;
+	border-bottom-style: ridge;
+	border-radius: 3px;
+}
+
+#text-section
+{
+	width: 480px;
+	height: 180px;
+	margin-left: 150px;
+	margin-top: 170px;
+	position: absolute;
+	background: transparent;
+}
+
+.image-slider 
+{
+	display: flex;
+	width: 100%;
+	position: relative;
+	margin-left: 0px;
+}
+
+/*----------------------*/
+/*--CODE MEDIAS QUERIES--*/
+/*----------------------*/
+
+@media all and (max-device-width: 768px)
+
+{
+	body
+	{
+		width: 100%;
+	}
+
+	.image-slider
+	{
+		display: none;
+	}
+
+	#header
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#logo
+	{
+		margin-top: 50px;
+	}
+
+	#main-nav
+	{
+		margin: 0px;
+		width: 20%;
+		flex-direction: column;
+	}
+
+	#liste
+	{
+		flex-direction: column;
+		font-size: 24px;
+	}
+
+	nav ul
+	{
+		margin: 0px;
+		flex-direction: column;
+	}
+}
