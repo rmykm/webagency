@@ -5,18 +5,26 @@
 /*---Bloc du header---*/
 /*-------------------*/
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 768px)
 {
 	body
 	{
-		width: 100%;
+		width: 100vw;
 	}
+
+	.page
+	{
+		width: 100vw;
+		display: inline-block;
+		flex-direction: column;
+	}
+
 /*En-tête*/
 	#header
 	{
 		width: 100vw;
 		height: 240px;
-		display: block;
+		display: flex;
 		flex-direction: column;
 	}
 
@@ -30,7 +38,7 @@
 
 	nav
 	{
-		width: auto;
+		width: 100vw;
 	}
 
 	nav li
@@ -44,7 +52,7 @@
 
 	nav ul
 	{
-		width: auto;
+		width: 100vw;
 		margin: 0px 0px 0px 25px;
 		padding: 0px;
 	}
@@ -57,7 +65,7 @@
 	.image-slider
 	{
 		background-image: none;
-		width: auto;
+		width: 100vw;
 		height: 300px;
 	}
 
@@ -69,7 +77,7 @@
 	#text-section
 	{
 		margin: 0px 0px 0px 0px;
-		width: auto;
+		width: 100vw;
 		height: 300px;
 	}
 
@@ -94,5 +102,13 @@
 		margin-left: 40px;
 	}
 
+/*Services*/
+
+	#les-services
+	{
+	width: 100vw;
+	}
+
+	
 
 }
